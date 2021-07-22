@@ -25,10 +25,10 @@
     align-items: center;
     justify-content: center;
 
-    // @include mobile{
-    //   flex-direction: column;
-    //   height: 100%;
-    // }
+    @include mobile{
+      flex-wrap: wrap;
+
+    }
 
     .card {
       width: 250px;

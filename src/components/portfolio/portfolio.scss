@@ -11,9 +11,9 @@
     padding-top: 3.5vh;
     font-size: 4vh;
 
-    // @include mobile{
-    //   font-size: 20px;
-    // }
+    @include mobile{
+      padding-top: 2vh;
+    }
   }
 
   ul {  
@@ -29,6 +29,9 @@
       flex-wrap: wrap;
       justify-content: center;
     }
+    @include mobile{
+      margin: 0vh 0vh;
+    }
   }
 
   .container {
@@ -42,6 +45,7 @@
 
     @include tablet{
       width: 100%;
+      margin-top: .5vh;
     }
 
     .item {

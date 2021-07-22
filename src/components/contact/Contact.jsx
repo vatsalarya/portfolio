@@ -10,9 +10,6 @@ export default function Contact() {
   };
   return (
     <div className="contact" id="contact">
-      <div className="left">
-        <img src="assets/shake.svg" alt="" />
-      </div>
       <div className="right neu">
         <h2>CONTACT</h2>
         <form onSubmit={handleSubmit}>
