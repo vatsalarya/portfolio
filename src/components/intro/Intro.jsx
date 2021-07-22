@@ -34,13 +34,15 @@ export default function Intro() {
 
       </div>
       <div className="right">
-          <div className="mob_but">
-            <button type="submit" className="neu">Contact Me</button>
-            <button type="submit" className="neu">More</button>
-          </div>
         <div className="imgContainer">
           <img src="assets/mying.png" alt="" />
         </div>
+        <div className="mob_but">
+            <button type="submit" className="neu">Contact Me</button>
+            <button type="submit" className="neu arrow">
+                <img src="assets/down.png" alt="" />
+            </button>
+          </div>
         <a href="#portfolio">
           <img src="assets/down.png" alt="" />
         </a>

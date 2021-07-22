@@ -106,9 +106,19 @@
         flex-direction: column;
         button{
           padding: 4vh;
-          margin: 2vh 6vh;
+          margin: 3vh 8vh;
           width: 70%;
           // text-align: center;
+
+          img {
+            width: 40px;
+            animation: arrowBlink 2s infinite;
+          }
+          @keyframes arrowBlink {
+            100% {
+              opacity: 0;
+            }
+          }
         }
       }
     }
@@ -125,7 +135,10 @@
 
       @include mobile{
         align-items: flex-start;
-        height: 30vh;
+        height: 40vh;
+        // display: none;
+        content: url("../../mying_hori.png");
+
         // display: none;
       }
 
@@ -142,14 +155,16 @@
     }
     a {
       position: absolute;
-      bottom: 5vh;
+      bottom: 6vh;
       left: 40%;
-
+      @include mobile{
+        display: none;
+      };
+      
       img {
         width: 30px;
         animation: arrowBlink 2s infinite;
       }
-
       @keyframes arrowBlink {
         100% {
           opacity: 0;

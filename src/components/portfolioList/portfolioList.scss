@@ -13,7 +13,6 @@
   @include tablet{
     margin-right: 2.5vh;
   }
-
   &.active {
     box-shadow: -5px -5px 10px var(--clr-light), 5px 5px 10px var(--clr-dark),
       inset -5px -5px 10px var(--clr-light), inset 5px 5px 10px var(--clr-dark);
