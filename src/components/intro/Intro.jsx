@@ -27,13 +27,17 @@ export default function Intro() {
           jebkwhwvef inqhqpiugfoiqgugfgefw
           jebkwhwvef inqhqpiugfoiqgugf iugwqi ugwfogqeiwquewi ugb euigwqe ugefw oiqu goi euegofug fewugefw</p>
           <div>
-          <button type="submit" className="neu">Contact Me</button>
-          <button type="submit" className="neu">More</button>
+            <button type="submit" className="neu">Contact Me</button>
+            <button type="submit" className="neu">More</button>
           </div>
         </div>
 
       </div>
       <div className="right">
+          <div className="mob_but">
+            <button type="submit" className="neu">Contact Me</button>
+            <button type="submit" className="neu">More</button>
+          </div>
         <div className="imgContainer">
           <img src="assets/mying.png" alt="" />
         </div>

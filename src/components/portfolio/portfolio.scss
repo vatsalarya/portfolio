@@ -20,7 +20,7 @@
     list-style: none;
     display: flex;
 
-    @include mobile{
+    @include tablet{
       margin: 1.5vh 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -35,7 +35,7 @@
     justify-content: center;
     flex-wrap: wrap;
 
-    @include mobile{
+    @include tablet{
       width: 100%;
     }
 
@@ -57,7 +57,7 @@
       transition: all .5s ease;
       cursor: pointer;
 
-      @include mobile{
+      @include tablet{
         width: 230px;
         // height: 20vh;
       }
