@@ -1,0 +1,122 @@
+@import "../../global.scss";
+
+.contact {
+  display: flex;
+  @include mobile {
+    flex-direction: column;
+  }
+
+  .left {
+    flex: 1;
+    overflow: hidden;
+
+    img {
+      height: 100%;
+    }
+  }
+  .right {
+    flex: 1;
+    margin-top: 12vh;
+    height: 70vh;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #03a9f4;
+    transition: all 0.5s ease;
+
+    h2 {
+      font-size: 30px;
+      color: #c7c7c7;
+      font-weight: 500;
+      letter-spacing: 4px;
+    }
+    
+    form {
+      // width: 70%;
+      // height: 70%;
+      // position: rel
+      // width: 350px;
+      padding: 40px 40px 60px;
+      border-radius: 10px;
+      // text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+
+      .inputBox{
+        margin-top: 20px;
+
+
+        input {
+          // text-align: left;
+          margin-top: 5px;
+          height: 50px;
+          background: #131419;
+          border: none;
+          outline: none;
+          border-radius: 40px;
+          padding: 5px 15px;
+
+          box-shadow: inset -2px -2px 6px rgba(255,255,255,0.1),
+            inset 2px 2px 6px rgba(0,0,0,0.8);
+          
+          width: 300px;
+          font-size: 14px;
+          
+          }
+
+          label{
+            display: block;
+            color: #868686;
+            margin-bottom: 5px;
+            font-size: 18px;
+          }
+      
+        @include mobile {
+          width: 200px;
+          height: 20px;
+        }
+      }
+
+      textarea {
+        width: 300px;
+        height: 200px;
+        background: #131419;
+          border: none;
+          outline: none;
+          border-radius: 20px;
+          padding: 5px 15px;
+          box-shadow: inset -2px -2px 6px rgba(255,255,255,0.1),
+            inset 2px 2px 6px rgba(0,0,0,0.8);
+          
+          width: 300px;
+          font-size: 14px;
+
+        @include mobile {
+          width: 200px;
+          height: 100px;
+        }
+      }
+
+      button {
+        margin-top: 30px;
+        width: 200px;
+        height: 50px;
+        font-weight: 500;
+        cursor: pointer;
+
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      span {
+        color: green;
+      }
+    }
+  }
+}

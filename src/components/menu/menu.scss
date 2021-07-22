@@ -1,0 +1,68 @@
+@import "../../global.scss";
+
+.menu {
+  width: 240px;
+  height: 99.1%;
+
+  position: fixed;
+  top: 8px;
+  left: -300px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  justify-content: center;
+  transition: all 1s ease;
+
+  &.active {
+    left: .1%;
+    background-color: var(--clr--dark-menu);
+
+  }
+
+  .icon{
+    font-size: 30px;
+    margin-right: 12px;
+    align-items: center;
+  }
+
+  // h1{
+  //   color: white;
+  // }
+  ul {
+    margin: 0;
+    margin-left: 13px;
+    padding: 0;
+    list-style: none;
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    width: 100%;
+
+    li {
+      display: flex;
+      align-items: center;
+      margin-bottom: 35px;
+      a {
+        font-size: inherit;
+        color: inherit;
+        text-decoration: none;
+      }
+      
+
+      &:hover {
+        font-weight: 500;
+      }
+    }
+  }
+
+  .top{
+    margin-top: 15vh;
+    margin-right: 15%;
+    padding-left: 35%;
+    margin-bottom: 25%;
+  }
+  .bottom{
+    margin-top: 27vh;
+  }
+}

@@ -1,0 +1,102 @@
+$mainColor: #15023a;
+
+$width: 768px;
+
+@mixin mobile {
+    @media (max-width: #{$width}){
+        @content
+    }
+}
+
+@mixin tablet {
+    @media (max-width: #{1000px}){
+        @content
+    }
+}
+
+
+:root {
+    // --clr-light: white;
+    // --clr-med: #ebecf0;
+    // --clr-dark: #90a4ae;
+    // --clr-dark-heavy: #546e7a;
+    // --clr--dark-menu:#dfe2f0;
+
+    --clr-light: rgba(255,255,255,0.05);
+    --clr-med: #131419;
+    --clr-dark: rgba(0,0,0,0.5);
+    --clr-dark-heavy: #546e7a;
+    --clr--dark-menu:#21232b;
+
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:#03a9f4;
+  }
+  
+  body {
+    background: var(--clr-med);
+//     display: grid;
+//     justify-content: center;
+//     align-items: center;
+//     height: 100vh;
+  }
+  
+  .neu {
+    // width: 10em;
+    // height: 4em;
+    // font-size: 3em;
+    border-radius: 1em;
+    border: none;
+    outline: none;
+    background: var(--clr-med);
+    box-shadow: -5px -5px 10px var(--clr-light), 5px 5px 10px var(--clr-dark);
+    font-family: Montserrat, sans-serif;
+    color: var(--clr-dark-heavy);
+  }
+  
+  .neu2 {
+    // width: 10em;
+    // height: 4em;
+    // font-size: 3em;
+    border-radius: 5em;
+    border: none;
+    outline: none;
+    background: var(--clr-med);
+    box-shadow: -5px -5px 10px var(--clr-light), 5px 5px 10px var(--clr-dark),
+      inset -5px -5px 10px var(--clr-light), inset 5px 5px 10px var(--clr-dark);
+    font-family: Montserrat, sans-serif;
+    color: var(--clr-dark-heavy);
+  }
+
+  .neubut {
+    width: 10em;
+    height: 4em;
+    font-size: 3em;
+    margin: 10px;
+    border-radius: 1em;
+    border: none;
+    outline: none;
+    background: var(--clr-med);
+    box-shadow: -5px -5px 10px var(--clr-light), 5px 5px 10px var(--clr-dark);
+    font-family: Montserrat, sans-serif;
+    color: var(--clr-dark-heavy);
+  }
+  
+  .neu2but {
+    width: 10em;
+    height: 4em;
+    font-size: 3em;
+    border-radius: 5em;
+    border: none;
+    outline: none;
+    background: var(--clr-med);
+    box-shadow: -5px -5px 10px var(--clr-light), 5px 5px 10px var(--clr-dark),
+      inset -5px -5px 10px var(--clr-light), inset 5px 5px 10px var(--clr-dark);
+    font-family: Montserrat, sans-serif;
+    color: var(--clr-dark-heavy);
+  }
+  
