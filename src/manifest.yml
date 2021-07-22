@@ -1,0 +1,7 @@
+--- 
+applications: 
+  - 
+    buildpacks: staticfile_buildpack
+    instances: 1
+    memory: 768M
+    name: vatsal
