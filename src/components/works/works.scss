@@ -7,13 +7,9 @@
   position: relative;
 
   .arrow {
-    height: 50px;
+    height: 8vh;
     position: absolute;
     cursor: pointer;
-
-    @include mobile {
-      display: none;
-    }
 
     &.left {
       left: 100px;

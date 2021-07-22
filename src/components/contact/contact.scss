@@ -16,9 +16,9 @@
   }
   .right {
     flex: 1;
-    padding-top: 6vh;
+    // padding-top: 1vh;
     height: 90vh;
-    width: 30%;
+    // width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,8 +40,8 @@
       // height: 70%;
       // position: rel
       // width: 350px;
-      padding: 20px 80px 80px;
-      border-radius: 10px;
+      // padding: 2vh 8vh 8vh;
+      // border-radius: 1vh;
       // text-align: center;
       display: flex;
       flex-direction: column;
@@ -57,13 +57,13 @@
 
         input {
           // text-align: left;
-          margin-top: 8px;
+          margin-top: 1vh;
           height: 7vh;
           background: #131419;
           border: none;
           outline: none;
-          border-radius: 40px;
-          padding: 5px 15px;
+          border-radius: 3vh;
+          padding: 1vh 2vh;
 
           box-shadow: inset -2px -2px 6px rgba(255,255,255,0.1),
             inset 2px 2px 6px rgba(0,0,0,0.8);
@@ -76,7 +76,7 @@
           label{
             display: block;
             color: #868686;
-            margin-bottom: 5px;
+            margin-bottom: .8vh;
             font-size: 18px;
           }
       
@@ -88,12 +88,12 @@
 
       textarea {
         width: 300px;
-        height: 200px;
+        height: 25vh;
         background: #131419;
           border: none;
           outline: none;
-          border-radius: 20px;
-          padding: 5px 15px;
+          border-radius: 3vh;
+          padding: 1vh 2vh;
           box-shadow: inset -2px -2px 6px rgba(255,255,255,0.1),
             inset 2px 2px 6px rgba(0,0,0,0.8);
           
@@ -107,9 +107,9 @@
       }
 
       button {
-        margin-top: 30px;
+        margin-top: 3vh;
         width: 200px;
-        height: 50px;
+        height: 7vh;
         font-weight: 500;
         cursor: pointer;
 
@@ -121,9 +121,9 @@
 
       span {
         color:wheat;
-        margin-top: 40px;
-        padding: 20px;
-        border-radius: 10px;
+        margin-top: 4vh;
+        padding: 2vh;
+        border-radius: 2vh;
       }
     }
   }

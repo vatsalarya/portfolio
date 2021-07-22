@@ -1,9 +1,9 @@
 @import "../../global.scss";
 
 .portfolioList {
-  font-size: 17px;
-  margin: 15px;
-  padding: 13px;
+  font-size: 2.2vh;
+  margin: 2vh;
+  padding: 1.7vh;
   border-radius: 10px; 
   cursor: pointer;
   transition: all 0.3s ease;
@@ -11,7 +11,7 @@
   
 
   @include mobile{
-    margin-right: 20px;
+    margin-right: 2.5vh;
   }
 
   &.active {

@@ -1,13 +1,13 @@
 @import "../../global.scss";
 
 .intro {
-  margin-top: 0px;
+  // margin-top: 0px;
   display: flex;
 
-  @include mobile{
-    flex-direction: column;
-    align-items: center;
-  }
+  // @include mobile{
+  //   flex-direction: column;
+  //   align-items: center;
+  // }
 
   .left {
     flex: 0.7;
@@ -21,50 +21,51 @@
       flex-direction: column;
       margin-top: 20vh;
 
-      @include mobile{
-        padding-left: 0;
-        align-items: center;
-        margin-top: 5vh;
-      }
+      // @include mobile{
+      //   padding-left: 0;
+      //   align-items: center;
+      //   margin-top: 5vh;
+      // }
 
       p{
-        font-size: 20px;
-        padding-top: 10px;
-        margin-top: 20px;
+        font-size: 2.5vh;
+        padding-top: 2vh;
+        margin-top: 2vh;
         color: var(--clr-dark-heavy);
         
-        @include mobile{
-          padding-left: 6%;
-          padding-right: 2%;
-        }
+        // @include mobile{
+        //   padding-left: 6%;
+        //   padding-right: 2%;
+        // }
       }
 
       button{
-        padding: 15px;
+        padding: 2vh;
         width:160px;
-        margin: 40px;
+        margin: 6vh;
         @include mobile{
-          margin: 20px;
+          margin: 2vh;
+          width: 34%;
         }
       }
 
       h1 {
-        font-size: 60px;
-        margin: 10px 0;
+        font-size: 7.5vh;
+        margin: 1.5vh 0;
 
-        @include mobile{
-          font-size: 40px;
-        }
+        // @include mobile{
+        // font-size: 40px;
+        // }
       }
       h2 {
-        font-size: 35px;
+        font-size: 4.4vh;
       }
       h3 {
-        font-size: 30px;
+        font-size: 4vh;
 
-        @include mobile{
-          font-size: 20px;
-        }
+        // @include mobile{
+        //   font-size: 20px;
+        // }
 
         span {
           font-size: inherit;
@@ -103,21 +104,21 @@
       float: right;
       
 
-      @include mobile{
-        align-items: flex-start;
-      }
+      // @include mobile{
+      //   align-items: flex-start;
+      // }
 
       img {
-        height: 90%;
+        height: 80vh;
 
         @include mobile{
-          height: 50%;
+          height: 58vh;
         }
       }
     }
     a {
       position: absolute;
-      bottom: 80px;
+      bottom: 5vh;
       left: 40%;
 
       img {

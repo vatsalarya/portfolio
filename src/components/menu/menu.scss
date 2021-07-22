@@ -5,7 +5,7 @@
   height: 99.1%;
 
   position: fixed;
-  top: 8px;
+  top: 1vh;
   left: -300px;
   z-index: 2;
   display: flex;
@@ -34,7 +34,7 @@
     margin-left: 13px;
     padding: 0;
     list-style: none;
-    font-size: 23px;
+    font-size: 3vh;
     font-weight: 300;
     color: white;
     width: 100%;
@@ -42,7 +42,7 @@
     li {
       display: flex;
       align-items: center;
-      margin-bottom: 27px;
+      margin-bottom: 3.3vh;
       a {
         font-size: inherit;
         color: inherit;

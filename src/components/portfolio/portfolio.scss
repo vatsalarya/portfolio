@@ -6,29 +6,29 @@
   align-items: center;
 
   h1 {
-    padding-top: 30px;
-    font-size: 40px;
+    padding-top: 3.5vh;
+    font-size: 4vh;
 
-    @include mobile{
-      font-size: 20px;
-    }
+    // @include mobile{
+    //   font-size: 20px;
+    // }
   }
 
   ul {  
-    margin-top: 10px;
+    margin-top: 1vh;
     padding: 0;
     list-style: none;
     display: flex;
 
     @include mobile{
-      margin: 10px 0;
+      margin: 1.5vh 0;
       flex-wrap: wrap;
       justify-content: center;
     }
   }
 
   .container {
-    margin-top: 20px;
+    margin-top: 2vh;
     width: 70%;
     display: flex;
     align-items: center;
@@ -41,14 +41,14 @@
 
     .item {
       width: 350px;
-      height: 230px;
+      height: 30vh;
       // border-radius: 20px;
       // border: 1px solid rgb(240, 239, 239);
       border-radius: 2em;
       border: none;
       outline: none;
       box-shadow: -5px -5px 10px var(--clr-light), 5px 5px 10px var(--clr-dark);
-      margin: 10px 20px;
+      margin: 1vh 2vh;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -59,7 +59,7 @@
 
       @include mobile{
         width: 230px;
-        height: 200px;
+        // height: 20vh;
       }
       // @include tablet {
       //   width: 330px;
@@ -68,7 +68,7 @@
 
       h3 {
         position: absolute;
-        font-size: 20px;
+        font-size: 3vh;
       }
 
       img {
