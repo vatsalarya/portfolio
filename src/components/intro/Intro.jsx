@@ -24,7 +24,7 @@ export default function Intro() {
             A <span ref={textRef}></span>
           </h3>
           <p>jebkwhwvef inqhqpiugfoiqgugf iugwqi ugwfogqeiwquewi ugb euigwqe ugefw oiqu goi euegofug fewugefw
-          jebkwhwvef inqhqpiugfoiqgugf iugwqi ugwfogqeiwquewi ugb euigwqe ugefw oiqu goi euegofug fewugefw
+          jebkwhwvef inqhqpiugfoiqgugfgefw
           jebkwhwvef inqhqpiugfoiqgugf iugwqi ugwfogqeiwquewi ugb euigwqe ugefw oiqu goi euegofug fewugefw</p>
           <div>
           <button type="submit" className="neu">Contact Me</button>

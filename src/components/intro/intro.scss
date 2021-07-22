@@ -10,13 +10,13 @@
   }
 
   .left {
-    flex: 0.5;
+    flex: 0.7;
     overflow: hidden;
 
     .wrapper {
       width: 100%;
       height: 100%;
-      padding-left: 30%;
+      padding-left: 20%;
       display: flex;
       flex-direction: column;
       margin-top: 20vh;
@@ -33,12 +33,19 @@
         margin-top: 20px;
         color: var(--clr-dark-heavy);
         
+        @include mobile{
+          padding-left: 6%;
+          padding-right: 2%;
+        }
       }
 
       button{
         padding: 15px;
         width:160px;
         margin: 40px;
+        @include mobile{
+          margin: 20px;
+        }
       }
 
       h1 {

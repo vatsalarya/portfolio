@@ -2,12 +2,12 @@
 
 .contact {
   display: flex;
-  @include mobile {
-    flex-direction: column;
-  }
+  // @include mobile {
+  //   flex-direction: column;
+  // }
 
   .left {
-    flex: 1;
+    flex: .5;
     overflow: hidden;
 
     img {
@@ -50,7 +50,7 @@
       
 
       .inputBox{
-        margin-top: 15px;
+        margin-top: 8%;
         // overflow: hidden;
 
 
@@ -58,7 +58,7 @@
         input {
           // text-align: left;
           margin-top: 8px;
-          height: 50px;
+          height: 7vh;
           background: #131419;
           border: none;
           outline: none;
@@ -80,10 +80,10 @@
             font-size: 18px;
           }
       
-        @include mobile {
-          width: 200px;
-          height: 20px;
-        }
+        // @include mobile {
+        //   width: 200px;
+        //   height: 20px;
+        // }
       }
 
       textarea {
@@ -100,10 +100,10 @@
           width: 300px;
           font-size: 14px;
 
-        @include mobile {
-          width: 200px;
-          height: 100px;
-        }
+        // @include mobile {
+        //   width: 200px;
+        //   height: 100px;
+        // }
       }
 
       button {

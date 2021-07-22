@@ -1,6 +1,6 @@
 $mainColor: #15023a;
 
-$width: 768px;
+$width: 1120px;
 
 @mixin mobile {
     @media (max-width: #{$width}){
@@ -8,11 +8,6 @@ $width: 768px;
     }
 }
 
-@mixin tablet {
-    @media (max-width: #{1000px}){
-        @content
-    }
-}
 
 
 :root {

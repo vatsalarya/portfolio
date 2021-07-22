@@ -58,13 +58,13 @@
       cursor: pointer;
 
       @include mobile{
-        width: 130px;
-        height: 100px;
-      }
-      @include tablet {
         width: 230px;
         height: 200px;
       }
+      // @include tablet {
+      //   width: 330px;
+      //   height: 200px;
+      // }
 
       h3 {
         position: absolute;
