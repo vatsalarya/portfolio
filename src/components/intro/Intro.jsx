@@ -17,24 +17,25 @@ export default function Intro() {
   return (
     <div className="intro" id="intro">
       <div className="left">
-        <div className="imgContainer">
-          <img src="" alt="" />
-        </div>
         <div className="wrapper">
           <h2>Hi There, I'm</h2>
           <h1>Vatsal Arya</h1>
           <h3>
             A <span ref={textRef}></span>
           </h3>
+          <p>jebkwhwvef inqhqpiugfoiqgugf iugwqi ugwfogqeiwquewi ugb euigwqe ugefw oiqu goi euegofug fewugefw
+          jebkwhwvef inqhqpiugfoiqgugf iugwqi ugwfogqeiwquewi ugb euigwqe ugefw oiqu goi euegofug fewugefw
+          jebkwhwvef inqhqpiugfoiqgugf iugwqi ugwfogqeiwquewi ugb euigwqe ugefw oiqu goi euegofug fewugefw</p>
+          <div>
+          <button type="submit" className="neu">Contact Me</button>
+          <button type="submit" className="neu">More</button>
+          </div>
         </div>
+
       </div>
       <div className="right">
-        <div className="wrapper">
-          <h2>Hi There, I'm</h2>
-          <h1>Vatsal Arya</h1>
-          <h3>
-            A <span ref={textRef}></span>
-          </h3>
+        <div className="imgContainer">
+          <img src="assets/mying.png" alt="" />
         </div>
         <a href="#portfolio">
           <img src="assets/down.png" alt="" />

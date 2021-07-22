@@ -1,11 +1,15 @@
+@import "global";
+
+
 .app{
     height: 100vh;
 
     .sections{
         width: 100%;
-        height: calc(100vh - 150px); 
+        height: calc(100vh - 120px);
+        background-color: var(--clr-med);
         position: relative;
-        margin-top: 150px;
+        top: 80px;
         scroll-behavior: smooth;
         scroll-snap-type: y mandatory;
         scrollbar-width: none; //for firefox

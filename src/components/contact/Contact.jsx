@@ -25,7 +25,7 @@ export default function Contact() {
             <textarea placeholder="Message"></textarea>
           </div>
           <button type="submit" className="neu">Send</button>
-          {message && <span>Thanks, I'll reply ASAP :)</span>}
+          {message && <span className="neu2">Thanks, I'll reply ASAP :)</span>}
         </form>
       </div>
     </div>
