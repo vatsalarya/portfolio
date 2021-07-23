@@ -1,13 +1,30 @@
 @import "../../global.scss";
 
 .contact {
-  // display: flex;
-  // @include mobile {
-  //   flex-direction: column;
-  // }
+  display: flex;
+  overflow: hidden;
 
+  @include mobile {
+    flex-direction: column;
+  }
+
+  .left {
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      height: 90vh;
+    }
+    @include mobile{
+      display: none;
+    }
+  }
   .right {
-    // flex: 1;
+    flex: 1;
     // padding-top: 1vh;
     height: 90vh;
     // width: 90%;
@@ -22,7 +39,7 @@
       font-size: 4.5vh;
       color: #03a9f4;
       font-weight: 500;
-      letter-spacing: 4px;
+      letter-spacing: .8vh;
       overflow: hidden;
     }
     

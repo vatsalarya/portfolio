@@ -95,6 +95,8 @@
   }
   .right {
     flex: 0.6;
+    overflow: hidden;
+
     position: relative;
     // background-color: blue;
     @include mobile{
@@ -158,14 +160,14 @@
     }
     a {
       position: absolute;
-      bottom: 6vh;
+      bottom: 8vh;
       left: 40%;
       @include mobile{
         display: none;
       };
       
       img {
-        width: 30px;
+        width: 4vh;
         animation: arrowBlink 2s infinite;
       }
       @keyframes arrowBlink {

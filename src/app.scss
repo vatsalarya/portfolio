@@ -6,10 +6,10 @@
 
     .sections{
         width: 100%;
-        height: calc(100vh - 120px);
+        height: calc(90vh);
         background-color: var(--clr-med);
         position: relative;
-        top: 80px;
+        top: 10vh;
         scroll-behavior: smooth;
         scroll-snap-type: y mandatory;
         scrollbar-width: none; //for firefox
