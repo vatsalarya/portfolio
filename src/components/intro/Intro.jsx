@@ -26,9 +26,13 @@ export default function Intro() {
           <p>jebkwhwvef inqhqpiugfoiqgugf iugwqi ugwfogqeiwquewi ugb euigwqe ugefw oiqu goi euegofug fewugefw
           jebkwhwvef inqhqpiugfoiqgugfgefw
           jebkwhwvef inqhqpiugfoiqgugf iugwqi ugwfogqeiwquewi ugb euigwqe ugefw oiqu goi euegofug fewugefw</p>
-          <div>
-            <button type="submit" className="neu">Contact Me</button>
-            <button type="submit" className="neu">More</button>
+          <div className="buttons">
+            <a href="#contact">            
+              <button type="submit" className="neu">Contact Me</button>
+            </a>
+            <a href="#contact">
+              <button type="submit" className="neu">Contact Me</button>
+            </a>
           </div>
         </div>
 
@@ -38,12 +42,16 @@ export default function Intro() {
           <img src="assets/mying.png" alt="" />
         </div>
         <div className="mob_but">
+          <a href="#contact">            
             <button type="submit" className="neu">Contact Me</button>
+          </a>
+          <a href="#contact">
             <button type="submit" className="neu arrow">
-                <img src="assets/down.png" alt="" />
+              <img src="assets/down.png" alt="" />
             </button>
-          </div>
-        <a href="#portfolio">
+          </a>    
+        </div>
+        <a className="arrow_bottom" href="#portfolio">
           <img src="assets/down.png" alt="" />
         </a>
       </div>
