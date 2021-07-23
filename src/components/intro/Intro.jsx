@@ -30,7 +30,7 @@ export default function Intro() {
             <a href="#contact">            
               <button type="submit" className="neu">Contact Me</button>
             </a>
-            <a href="#contact">
+            <a href="#portfolio">
               <button type="submit" className="neu">Contact Me</button>
             </a>
           </div>
@@ -45,7 +45,7 @@ export default function Intro() {
           <a href="#contact">            
             <button type="submit" className="neu">Contact Me</button>
           </a>
-          <a href="#contact">
+          <a href="#portfolio">
             <button type="submit" className="neu arrow">
               <img src="assets/down.png" alt="" />
             </button>
