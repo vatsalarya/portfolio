@@ -12,7 +12,7 @@
     font-size: 4vh;
 
     @include mobile{
-      padding-top: 8vh;
+      padding-top: 2.2vh;
     }
   }
 
@@ -73,7 +73,7 @@
       }
       @include mobile{
         width: 80%;
-        height: 17vh;
+        height: 15.7vh;
       }
       h3 {
         position: absolute;

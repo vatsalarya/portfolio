@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import PortfolioList from "../portfolioList/PortfolioList";
 import "./portfolio.scss";
 import {
-  featuredPortfolio,
   webPortfolio,
+  otherWebsites,
   otherPortfolio,
 } from "../../data";
 
@@ -12,12 +12,12 @@ export default function Portfolio() {
   const [data, setData] = useState([]);
   const list = [
     {
-      id: "featured",
-      title: "Featured",
+      id: "webapps",
+      title: "Web Apps",
     },
     {
       id: "web",
-      title: "Web App",
+      title: "Websites",
     },
     {
       id: "other",
@@ -27,17 +27,17 @@ export default function Portfolio() {
 
   useEffect(() => {
     switch (selected) {
-      case "featured":
-        setData(featuredPortfolio);
+      case "webapps":
+        setData(webPortfolio);
         break;
       case "web":
-        setData(webPortfolio);
+        setData(otherWebsites);
         break;
       case "other":
         setData(otherPortfolio);
         break;
       default:
-        setData(featuredPortfolio);
+        setData(webPortfolio);
     }
   }, [selected]);
 
