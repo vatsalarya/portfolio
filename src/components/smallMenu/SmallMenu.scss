@@ -12,7 +12,10 @@
   transition: all .7s ease;
   @include tablet{
       width: 6.2vw;
-    }
+  }
+  @include mobile{
+    display: none;
+  }
 
   &.active {
     // left: .1%;
