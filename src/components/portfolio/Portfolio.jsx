@@ -8,7 +8,7 @@ import {
 } from "../../data";
 
 export default function Portfolio() {
-  const [selected, setSelected] = useState("featured");
+  const [selected, setSelected] = useState("webapps");
   const [data, setData] = useState([]);
   const list = [
     {
