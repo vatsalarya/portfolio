@@ -45,11 +45,6 @@ export default function Intro() {
           <a href="#contact">            
             <button type="submit" className="neu">Contact Me</button>
           </a>
-          <a href="#portfolio">
-            <button type="submit" className="neu arrow">
-              <img src="assets/down.png" alt="" />
-            </button>
-          </a>    
         </div>
         <a className="arrow_bottom" href="#portfolio">
           <img src="assets/down.png" alt="" />
