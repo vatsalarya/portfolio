@@ -12,7 +12,7 @@
     font-size: 4vh;
 
     @include mobile{
-      padding-top: 2vh;
+      padding-top: 8vh;
     }
   }
 
@@ -51,8 +51,6 @@
     .item {
       width: 350px;
       height: 30vh;
-      // border-radius: 20px;
-      // border: 1px solid rgb(240, 239, 239);
       border-radius: 2em;
       border: none;
       outline: none;
@@ -68,7 +66,6 @@
 
       @include tablet{
         width: 230px;
-        // height: 20vh;
       }
       @include tablet {
         width: 330px;

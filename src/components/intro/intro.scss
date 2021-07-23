@@ -1,12 +1,11 @@
 @import "../../global.scss";
 
 .intro {
-  // margin-top: 0px;
   display: flex;
 
   @include mobile{
     flex-direction: column;
-    // align-items: center;
+    margin-top: 15vh;
   }
 
   .left {
@@ -97,7 +96,6 @@
     overflow: hidden;
 
     position: relative;
-    // background-color: blue;
     @include mobile{
       display: flex;
     }
@@ -112,8 +110,6 @@
           width: 70%;
           font-size: 2vh;
 
-          // text-align: center;
-
           img {
             width: 40px;
             animation: arrowBlink 2s infinite;
@@ -127,12 +123,8 @@
       }
     }
     .imgContainer {
-      // width: 700px;
       height:  90vh;
-      // background-color: crimson;
-      // border-radius: 50%;
       display: flex;
-      // align-items: flex-end;
       justify-content: center;
       float: right;
       
@@ -140,10 +132,8 @@
       @include mobile{
         align-items: flex-start;
         height: 40vh;
-        // display: none;
         content: url("../../mying_hori.png");
 
-        // display: none;
       }
 
       img {

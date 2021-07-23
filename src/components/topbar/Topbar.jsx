@@ -12,7 +12,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             <span className="line3"></span>
           </div>
           <a href="#intro" className="logo">
-            genius.
+            Download Resume
           </a>
         </div>
 

@@ -4,7 +4,7 @@ import "./portfolio.scss";
 import {
   featuredPortfolio,
   webPortfolio,
-  mobilePortfolio,
+  otherPortfolio,
 } from "../../data";
 
 export default function Portfolio() {
@@ -20,8 +20,8 @@ export default function Portfolio() {
       title: "Web App",
     },
     {
-      id: "mobile",
-      title: "Mobile App",
+      id: "other",
+      title: "Other Apps",
     }
   ];
 
@@ -33,8 +33,8 @@ export default function Portfolio() {
       case "web":
         setData(webPortfolio);
         break;
-      case "mobile":
-        setData(mobilePortfolio);
+      case "other":
+        setData(otherPortfolio);
         break;
       default:
         setData(featuredPortfolio);

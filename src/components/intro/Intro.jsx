@@ -31,7 +31,7 @@ export default function Intro() {
               <button type="submit" className="neu">Contact Me</button>
             </a>
             <a href="#portfolio">
-              <button type="submit" className="neu">Contact Me</button>
+              <button type="submit" className="neu">More</button>
             </a>
           </div>
         </div>
