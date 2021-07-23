@@ -41,8 +41,9 @@
 
       button{
         padding: 2vh;
-        width:160px;
+        width:28%;
         margin: 6vh;
+        font-size: 2vh;
         @include tablet{
           margin: 2vh;
           width: 34%;
@@ -108,6 +109,8 @@
           padding: 4vh;
           margin: 3vh 6vh;
           width: 70%;
+          font-size: 2vh;
+
           // text-align: center;
 
           img {
