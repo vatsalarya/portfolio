@@ -12,7 +12,7 @@
   transition: all s ease;
 
   .wrapper {
-    padding: 1.8vh 30px;
+    padding: 1.8vh 1.5vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -27,7 +27,6 @@
         font-weight: 700;
         text-decoration: none;
         color: inherit;
-        margin-right: 40px;
       }
     }
 
@@ -39,7 +38,7 @@
       .itemContainer {
         display: flex;
         align-items: center;
-        margin-left: 30px;
+        margin-left: 2vw;
 
         @include mobile{
           display: none;
@@ -47,7 +46,7 @@
 
         .icon {
           font-size: 2.3vh;
-          margin-right: 5px;
+          margin-right: .5vw;
         }
 
         span {

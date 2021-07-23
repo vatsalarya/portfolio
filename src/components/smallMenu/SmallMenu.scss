@@ -22,11 +22,11 @@
   }
 
   .icon{
-    font-size: 2vw  ;
+    font-size: 2vw;
     align-items: center;
-    @include tablet{
-      font-size: 3vw;
-      }
+    // @include tablet{
+    //   font-size: 3vw;
+    //   }
   }
  
   ul {

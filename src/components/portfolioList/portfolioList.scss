@@ -21,6 +21,9 @@
   &.active {
     box-shadow: -5px -5px 10px var(--clr-light), 5px 5px 10px var(--clr-dark),
       inset -5px -5px 10px var(--clr-light), inset 5px 5px 10px var(--clr-dark);
-    color: white;
+    color: rgb(220, 228, 199);
+    @include mobile{
+      border-radius: 3.5em;
+    }
   }
 }

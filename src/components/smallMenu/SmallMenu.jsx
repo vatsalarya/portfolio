@@ -13,9 +13,9 @@ export default function SmallMenu({ menuOpen, setMenuOpen }) {
   return (
     <div className={"menu_small neu "+(menuOpen && "active neu")}>
       <ul>
-        <li>
+        {/* <li>
           <Brightness4Icon className="icon" />
-        </li>
+        </li> */}
         <li>
           <a href="#intro">
             <HomeIcon className="icon homeicon" />
