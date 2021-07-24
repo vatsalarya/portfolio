@@ -4,6 +4,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  color:rgb(76, 141, 211);
+
 
   // @include mobile{
   //   justify-content: space-around;
@@ -13,6 +15,8 @@
   h1 {
     font-size: 5.3vh;
     padding-top: 4vh;
+    font-family: 'Lobster', cursive;
+
     // @include mobile{
     //   font-size: 20px;
     // }
@@ -25,9 +29,8 @@
     align-items: center;
     justify-content: center;
 
-    @include mobile{
+    @include tablet{
       flex-wrap: wrap;
-
     }
 
     .card {
@@ -39,25 +42,35 @@
       flex-direction: column;
       justify-content: space-around;
       padding: 2.5vh;
-      transition: all 1s ease;
+      transition: all .5s ease;
 
-
+      @include tablet{
+        width: 28vw;
+        height: 60vh;
+        margin: 3vh 0;
+      }
       @include mobile{
         width: 70vw;
         height: 60vh;
         margin: 3vh 0;
       }
 
+
       &.featured{
           width: 18vw;
           height: 66vh;
           margin: 0 4vh;
-
+          @include tablet{
+            width: 28vw;
+            height: 60vh;
+            margin: 3vh 0;
+          }
           @include mobile{
             width: 70vw;
             height: 60vh;
             margin: 3vh 0;
           }
+
           // @include mobile{
           //   width: 250px;
           //   height: 180px;
@@ -74,7 +87,7 @@
         align-items: center;
         justify-content: center;
         padding: 3vh;
-
+        color:#f3c59a;
       }
 
       .center {
@@ -97,6 +110,7 @@
 
         h3 {
           margin-bottom: 1vh;
+          color:#ad937e;
 
           // @include mobile{
           //   font-size: 14px;

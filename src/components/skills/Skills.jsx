@@ -1,4 +1,4 @@
-import "./testimonials.scss";
+import "./skills.scss";
 
 export default function Testimonials() {
   const data = [
@@ -46,7 +46,7 @@ export default function Testimonials() {
         {data.map((d) => (
           <div className={d.featured ? "card featured neu" : "card neu"}>
             <div className="top neu">
-              <h3>{d.skill}</h3>
+              <h2>{d.skill}</h2>
             </div>
             <div className="center neu">
               {d.desc}

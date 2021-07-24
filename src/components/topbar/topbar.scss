@@ -38,6 +38,8 @@
           font-size: 2.5vh;
           margin-right: .6vw;
           align-items: center;
+          color:rgb(70, 189, 133);
+
           @include mobile{
             margin-right: 2vw;
           }
@@ -45,7 +47,7 @@
         .resume{
           font-size:2.2vh;
           font-weight: 700;
-          color: inherit;
+          color:rgb(148, 185, 216);
         }
       }
 
@@ -56,6 +58,9 @@
       margin-right: 2%; 
       display: flex;
       align-items: center;
+      color:rgb(76, 141, 211);
+
+
 
       .itemContainer {
         display: flex;
@@ -69,6 +74,7 @@
         .icon {
           font-size: 2.3vh;
           margin-right: .5vw;
+
         }
 
         span {
@@ -87,9 +93,11 @@
         flex-direction: column;
         justify-content: space-between;
         cursor: pointer;
+        overflow: hidden;
 
         @include mobile{
           height: 3vh;
+          margin-right: 3vw;
         }
         
         span {

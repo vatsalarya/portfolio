@@ -26,7 +26,7 @@ export default function Intro() {
           <p>Welcome to my personal website!
             <br/> I make responsive websites using MERN stack.
             <br/>I am also proficiant in other languages like Python, C++, Dev Ops(jenkins)<br/> NodeJS, Jquery, EJS, mongoDB, SQL,<br/>Swift(Ios app development at Beggineer level), SwiftUI
-            </p>
+          </p>
           <div className="buttons">
             <a href="#contact">            
               <button type="submit" className="neu">Contact Me</button>
