@@ -2,7 +2,7 @@ import "./SmallMenu.scss";
 import HomeIcon from '@material-ui/icons/Home';
 // import Brightness4Icon from '@material-ui/icons/Brightness4';
 import WorkIcon from '@material-ui/icons/Work';
-import ListAltIcon from '@material-ui/icons/ListAlt';
+// import ListAltIcon from '@material-ui/icons/ListAlt';
 import PeopleIcon from '@material-ui/icons/People';
 import ContactPhoneIcon from '@material-ui/icons/ContactPhone';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
@@ -26,11 +26,11 @@ export default function SmallMenu({ menuOpen, setMenuOpen }) {
             <WorkIcon className="icon" />
           </a>
         </li>
-        <li>
+        {/* <li>
           <a href="#works">
             <ListAltIcon className="icon" />
           </a>
-        </li>
+        </li> */}
         <li>
           <a href="#testimonials">  
             <PeopleIcon className="icon" />

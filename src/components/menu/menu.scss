@@ -39,6 +39,11 @@
     color: white;
     width: 100%;
 
+    @include mobile{
+    font-size: 4.4vw;
+      
+    }
+
     li {
       display: flex;
       align-items: center;
@@ -57,7 +62,9 @@
   }
 
   .top{
-    margin-top: 14vh;
+    // margin-top: 14vh;
+    margin-top: 10vh;
+
     margin-right: 15%;
     padding-left: 35%;
     margin-bottom: 25%;

@@ -24,13 +24,13 @@ export default function Menu({ menuOpen, setMenuOpen }) {
           <WorkIcon className="icon" />
           <a href="#portfolio">Portfolio</a>
         </li>
-        <li onClick={()=>setMenuOpen(false)}>
+        {/* <li onClick={()=>setMenuOpen(false)}>
           <ListAltIcon className="icon" />
           <a href="#works">Works</a>
-        </li>
+        </li> */}
         <li onClick={()=>setMenuOpen(false)}>
           <PeopleIcon className="icon" />
-          <a href="#testimonials">Testimonials</a>
+          <a href="#skills">Skills</a>
         </li>
         <li onClick={()=>setMenuOpen(false)}>
           <ContactPhoneIcon className="icon" />
