@@ -32,8 +32,8 @@
         // align-items: center;
         @include mobile{
         padding: .8vh 2.2vw;
-
         }
+
         .icon{
           font-size: 2.5vh;
           margin-right: .6vw;
@@ -48,8 +48,6 @@
           font-size:2.2vh;
           font-weight: 700;
           color:rgb(148, 185, 216);
-          background-color: var(--clr--dark-menu);
-
         }
       }
 
@@ -120,6 +118,11 @@
     background-color: var(--clr--dark-menu);
 
     color: white;
+    .left{
+      .logo{
+        visibility: hidden;
+      }
+    }
 
     .hamburger {
       span {
