@@ -87,7 +87,11 @@
         align-items: center;
         justify-content: center;
         padding: 3vh;
-        color:#fce2cb;
+        color:#edf7ca;
+        // font-family: 'Marck Script', cursive;
+        font-family: 'Lobster', cursive;
+        
+        
       }
 
       .center {
@@ -96,8 +100,6 @@
         background-color: rgb(21, 21, 24);
         font-size: 2.3vh;
         color:#85a8c5;
-        
-
         // @include mobile{
         //   font-size: 12px;
         //   padding: 5px;
