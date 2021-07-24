@@ -3,8 +3,9 @@ import HomeIcon from '@material-ui/icons/Home';
 // import Brightness4Icon from '@material-ui/icons/Brightness4';
 import WorkIcon from '@material-ui/icons/Work';
 // import ListAltIcon from '@material-ui/icons/ListAlt';
-import PeopleIcon from '@material-ui/icons/People';
+// import PeopleIcon from '@material-ui/icons/People';
 import ContactPhoneIcon from '@material-ui/icons/ContactPhone';
+import DevicesIcon from '@material-ui/icons/Devices';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import CodeIcon from '@material-ui/icons/Code';
@@ -32,8 +33,8 @@ export default function SmallMenu({ menuOpen, setMenuOpen }) {
           </a>
         </li> */}
         <li>
-          <a href="#testimonials">  
-            <PeopleIcon className="icon" />
+          <a href="#skills">  
+            <DevicesIcon className="icon" />
           </a>
         </li>
         <li>

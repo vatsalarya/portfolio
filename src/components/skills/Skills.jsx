@@ -1,6 +1,6 @@
 import "./skills.scss";
 
-export default function Testimonials() {
+export default function Skills() {
   const data = [
     {
       id: 1,
@@ -40,7 +40,7 @@ export default function Testimonials() {
     }
   ];
   return (
-    <div className="testimonials" id="testimonials">
+    <div className="skills" id="skills">
       <h1>Skills</h1>
       <div className="container">
         {data.map((d) => (
