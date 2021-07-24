@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.2ae8e5cf.chunk.css",
+    "main.css": "/static/css/main.50cec4a4.chunk.css",
     "main.js": "/static/js/main.4af283a4.chunk.js",
     "main.js.map": "/static/js/main.4af283a4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5ebc510a.js",
@@ -8,14 +8,14 @@
     "static/js/2.cedf493d.chunk.js": "/static/js/2.cedf493d.chunk.js",
     "static/js/2.cedf493d.chunk.js.map": "/static/js/2.cedf493d.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.2ae8e5cf.chunk.css.map": "/static/css/main.2ae8e5cf.chunk.css.map",
+    "static/css/main.50cec4a4.chunk.css.map": "/static/css/main.50cec4a4.chunk.css.map",
     "static/js/2.cedf493d.chunk.js.LICENSE.txt": "/static/js/2.cedf493d.chunk.js.LICENSE.txt",
     "static/media/intro.scss": "/static/media/mying_hori.1cb124de.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5ebc510a.js",
     "static/js/2.cedf493d.chunk.js",
-    "static/css/main.2ae8e5cf.chunk.css",
+    "static/css/main.50cec4a4.chunk.css",
     "static/js/main.4af283a4.chunk.js"
   ]
 }
