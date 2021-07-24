@@ -8,6 +8,11 @@ $width: 720px;
         @content
     }
 }
+@mixin tall {
+  @media (max-width: 1200px){
+    @content
+  }
+}
 
 @mixin tablet { 
   @media (max-width: #{$widthtab}){

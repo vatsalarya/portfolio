@@ -7,6 +7,10 @@
     flex-direction: column;
     margin-top: 15vh;
   }
+  @include tall{
+    flex-direction: column;
+    margin-top: 15vh;
+  }
 
   .left {
     flex: 0.7;
@@ -27,7 +31,11 @@
         align-items: center;
         margin-top: 5vh;
       }
-
+      @include tall{
+        padding-left: 0;
+        align-items: center;
+        margin-top: 5vh;
+      }
       p{
         font-size: 2.5vh;
         padding-top: 2vh;
@@ -35,6 +43,10 @@
         color: var(--clr-dark-heavy);
         
         @include mobile{
+          padding-left: 6%;
+          padding-right: 2%;
+        }
+        @include tall{
           padding-left: 6%;
           padding-right: 2%;
         }
@@ -52,6 +64,9 @@
         @include mobile{
           display: none;
         }
+        @include tall{
+          display: none;
+        }
       }
 
       h1 {
@@ -61,6 +76,9 @@
         @include mobile{
         font-size: 40px;
         }
+        @include tall{
+          font-size: 40px;
+          }
       }
       h2 {
         font-size: 4.4vh;
@@ -71,6 +89,10 @@
         @include mobile{
           font-size: 20px;
         }
+        @include tall{
+          font-size: 20px;
+        }
+
 
         span {
           font-size: inherit;
@@ -101,9 +123,23 @@
     @include mobile{
       display: flex;
     }
+    @include tall{
+      display: flex;
+    }
     .mob_but{
       display: none;
       @include mobile{
+        display: flex;
+        // flex-direction: column;
+        margin-top: 10vh;
+        button{
+          padding: 4vh;
+          margin: 1.5vh 12vw;
+          width: 70%;
+          font-size: 2vh;
+        }
+      }
+      @include tall{
         display: flex;
         // flex-direction: column;
         margin-top: 10vh;
@@ -126,7 +162,11 @@
         align-items: flex-start;
         height: 40vh;
         content: url("../../mying_hori.png");
-
+      }
+      @include tall{
+        align-items: flex-start;
+        height: 40vh;
+        content: url("../../mying_hori.png");
       }
 
       img {
@@ -138,6 +178,9 @@
         @include mobile{
           height: 100%;
         }
+        @include tall{
+          height: 100%;
+        }
       }
     }
     .arrow_bottom {
@@ -145,6 +188,9 @@
       bottom: 8vh;
       left: 40%;
       @include mobile{
+        display: none;
+      };
+      @include tall{
         display: none;
       };
       

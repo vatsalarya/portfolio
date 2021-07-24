@@ -7,6 +7,9 @@
   @include mobile {
     flex-direction: column;
   }
+  @include tall {
+    flex-direction: column;
+  }
 
   .left {
     flex: 1;
@@ -20,6 +23,9 @@
       height: 90vh;
     }
     @include mobile{
+      display: none;
+    }
+    @include tall{
       display: none;
     }
   }
@@ -74,6 +80,9 @@
           @include mobile{
             width: 100%;
           };
+          @include tall{
+            width: 100%;
+          };
           
         }
 
@@ -103,6 +112,9 @@
           font-size: 2vh;
 
         @include mobile {
+          width: 100%;
+        }
+        @include tall {
           width: 100%;
         }
       }

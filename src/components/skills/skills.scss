@@ -54,6 +54,11 @@
         height: 60vh;
         margin: 3vh 0;
       }
+      @include tall{
+        width: 70vw;
+        height: 60vh;
+        margin: 3vh 0;
+      }
 
 
       &.featured{
@@ -66,6 +71,11 @@
             margin: 3vh 0;
           }
           @include mobile{
+            width: 70vw;
+            height: 60vh;
+            margin: 3vh 0;
+          }
+          @include tall{
             width: 70vw;
             height: 60vh;
             margin: 3vh 0;
