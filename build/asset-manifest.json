@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.9fe96014.chunk.css",
-    "main.js": "/static/js/main.7c6ba716.chunk.js",
-    "main.js.map": "/static/js/main.7c6ba716.chunk.js.map",
+    "main.css": "/static/css/main.2b1f1b64.chunk.css",
+    "main.js": "/static/js/main.0721f9af.chunk.js",
+    "main.js.map": "/static/js/main.0721f9af.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5ebc510a.js",
     "runtime-main.js.map": "/static/js/runtime-main.5ebc510a.js.map",
-    "static/js/2.7ccf10c9.chunk.js": "/static/js/2.7ccf10c9.chunk.js",
-    "static/js/2.7ccf10c9.chunk.js.map": "/static/js/2.7ccf10c9.chunk.js.map",
+    "static/js/2.b6e0fe3b.chunk.js": "/static/js/2.b6e0fe3b.chunk.js",
+    "static/js/2.b6e0fe3b.chunk.js.map": "/static/js/2.b6e0fe3b.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.9fe96014.chunk.css.map": "/static/css/main.9fe96014.chunk.css.map",
-    "static/js/2.7ccf10c9.chunk.js.LICENSE.txt": "/static/js/2.7ccf10c9.chunk.js.LICENSE.txt",
+    "static/css/main.2b1f1b64.chunk.css.map": "/static/css/main.2b1f1b64.chunk.css.map",
+    "static/js/2.b6e0fe3b.chunk.js.LICENSE.txt": "/static/js/2.b6e0fe3b.chunk.js.LICENSE.txt",
     "static/media/intro.scss": "/static/media/mying_hori.1cb124de.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5ebc510a.js",
-    "static/js/2.7ccf10c9.chunk.js",
-    "static/css/main.9fe96014.chunk.css",
-    "static/js/main.7c6ba716.chunk.js"
+    "static/js/2.b6e0fe3b.chunk.js",
+    "static/css/main.2b1f1b64.chunk.css",
+    "static/js/main.0721f9af.chunk.js"
   ]
 }

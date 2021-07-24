@@ -1,6 +1,6 @@
 import "./SmallMenu.scss";
 import HomeIcon from '@material-ui/icons/Home';
-import Brightness4Icon from '@material-ui/icons/Brightness4';
+// import Brightness4Icon from '@material-ui/icons/Brightness4';
 import WorkIcon from '@material-ui/icons/Work';
 import ListAltIcon from '@material-ui/icons/ListAlt';
 import PeopleIcon from '@material-ui/icons/People';

@@ -1,5 +1,6 @@
 import "./topbar.scss";
 import { Person, Mail } from "@material-ui/icons";
+import GetAppIcon from '@material-ui/icons/GetApp';
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
@@ -11,8 +12,9 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             <span className="line2"></span>
             <span className="line3"></span>
           </div>
-          <a href="#intro" className="logo">
-            Download Resume
+          <a href="../../assets/Resume.docx" download className="logo neu2">
+            <GetAppIcon className="icon"/>
+            <div className="resume">Resume</div>
           </a>
         </div>
 

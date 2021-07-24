@@ -12,7 +12,7 @@
   transition: all s ease;
 
   .wrapper {
-    padding: 1.8vh 1.5vw;
+    padding: 1vh 1.5vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -20,14 +20,36 @@
     .left {
       display: flex;
       align-items: center;
+      padding-right: 3vw;
+
       .logo {
-        padding-top: .5vh;
+        display: flex;
+        align-items: center;
+        padding: .8vh .8vw;
+        // padding-top: .5vh;
         margin-left: 2.5vw;
-        font-size:2.2vh;
-        font-weight: 700;
         text-decoration: none;
-        color: inherit;
+        // align-items: center;
+        @include mobile{
+        padding: .8vh 2.2vw;
+
+        }
+        .icon{
+          font-size: 2.5vh;
+          margin-right: .6vw;
+          align-items: center;
+          @include mobile{
+            margin-right: 2vw;
+          }
+        }
+        .resume{
+          font-size:2.2vh;
+          font-weight: 700;
+          color: inherit;
+        }
       }
+
+
     }
 
     .right{

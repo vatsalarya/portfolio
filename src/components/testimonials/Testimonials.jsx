@@ -7,23 +7,37 @@ export default function Testimonials() {
       skill:"C++",
       level: "****",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
+        "Made various projects in C++ like password manager, password generator, file encrypter, decrypter. Done competitive coding in C++.",
     },
     {
       id: 2,
-      skill:"Web Dev",
-      level: "*****",
-      desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
-      featured: true,
-    },
-    {
-      id: 3,
       skill:"Python",
       level: "***",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
+        "Competitive programming in python, made projects such as hotel management and food ordering system with MySQL integration. ",
     },
+    {
+      id: 3,
+      skill:"Web Dev",
+      level: "*****",
+      desc:
+        "Full Stack Web Development with MERN Stack (Mongo dB, Express, React, Node Js.). Also, with Ejs, jQuery, sql, bootstrap, JavaScript (with ES6).",
+      featured: true,
+    },
+    {
+      id: 4,
+      skill:"Java",
+      level: "***",
+      desc:
+        "Made projects using java like Employee attendance and building attendance management.",
+    },
+    {
+      id: 3,
+      skill:"DevOPS",
+      level: "***",
+      desc:
+        "Knowledge of Jenkins, Git and GitHub, Linux command line and best practices. ",
+    }
   ];
   return (
     <div className="testimonials" id="testimonials">

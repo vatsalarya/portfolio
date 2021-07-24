@@ -35,7 +35,7 @@ export const webPortfolio = [
       id: 2,
       title: "Drum Kit",
       img:
-        "https://i.ibb.co/1qkZ3QY/Screenshot-50.png",
+        "https://i.ibb.co/XxzRFJY/Screenshot-46.png",
     },
     {
       id: 3,
