@@ -1,6 +1,6 @@
 ---
 applications:
-- name: crud-simple-reactjs
+- name: vatsal
   path: build/
   instances: 1
   buildpack: staticfile_buildpack

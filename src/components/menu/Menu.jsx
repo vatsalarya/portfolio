@@ -2,8 +2,6 @@ import "./menu.scss";
 import HomeIcon from '@material-ui/icons/Home';
 import Brightness4Icon from '@material-ui/icons/Brightness4';
 import WorkIcon from '@material-ui/icons/Work';
-import ListAltIcon from '@material-ui/icons/ListAlt';
-import PeopleIcon from '@material-ui/icons/People';
 import ContactPhoneIcon from '@material-ui/icons/ContactPhone';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
@@ -26,10 +24,6 @@ export default function Menu({ menuOpen, setMenuOpen }) {
           <WorkIcon className="icon" />
           <a href="#portfolio">Portfolio</a>
         </li>
-        {/* <li onClick={()=>setMenuOpen(false)}>
-          <ListAltIcon className="icon" />
-          <a href="#works">Works</a>
-        </li> */}
         <li onClick={()=>setMenuOpen(false)}>
           <DevicesIcon className="icon" />
           <a href="#skills">Skills</a>
