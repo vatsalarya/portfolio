@@ -1,7 +1,8 @@
----
-applications:
-- name: vatsal
-  path: build/
-  instances: 1
-  buildpack: staticfile_buildpack
-  memory: 256M 
+# Manifist for sap btp coockpit
+# ---
+# applications:
+# - name: vatsal
+#   path: build/
+#   instances: 1
+#   buildpack: staticfile_buildpack
+#   memory: 256M 

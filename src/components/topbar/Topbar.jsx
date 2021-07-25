@@ -12,7 +12,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             <span className="line2"></span>
             <span className="line3"></span>
           </div>
-          <a href="../../assets/Resume.pdf" download className="logo neu2">
+          <a href="assets/Resume.pdf" download className="logo neu2">
             <GetAppIcon className="icon"/>
             <div className="resume">Resume</div>
           </a>
