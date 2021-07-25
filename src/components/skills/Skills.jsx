@@ -14,7 +14,7 @@ export default function Skills() {
       skill:"Python",
       level: "***",
       desc:
-        "Competitive programming in python, made projects such as hotel management and food ordering system with MySQL integration. ",
+        "Made projects such as hotel management and food ordering system with MySQL integration Competitive programming in python. ",
     },
     {
       id: 3,

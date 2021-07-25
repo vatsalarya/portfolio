@@ -10,7 +10,7 @@ export default function Intro() {
       showCursor: true,
       backDelay: 1500,
       backSpeed:60,
-      strings: ["Web Developer", "IOS App developer"],
+      strings: ["A Web Developer", " An IOS App developer"],
     });
   }, []);
 
@@ -21,11 +21,11 @@ export default function Intro() {
           <h2>Hi There, I'm</h2>
           <h1>Vatsal Arya</h1>
           <h3>
-            A <span ref={textRef}></span>
+            <span ref={textRef}></span>
           </h3>
           <p>Welcome to my personal website!
             <br/> I make responsive websites using MERN stack.
-            <br/>I am also proficiant in other languages like Python, C++, Dev Ops(jenkins)<br/> NodeJS, Jquery, EJS, mongoDB, SQL,<br/>Swift(Ios app development at Beggineer level), SwiftUI
+            <br/>I am also proficient in other languages like Python, C++, Dev Ops(jenkins)<br/> NodeJS, Jquery, EJS, mongoDB, SQL,<br/>Swift(IOS app development at Beginner level), SwiftUI
           </p>
           <div className="buttons">
             <a href="#contact">            
