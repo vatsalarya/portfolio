@@ -8,6 +8,8 @@ import ContactPhoneIcon from '@material-ui/icons/ContactPhone';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import CodeIcon from '@material-ui/icons/Code';
+import DevicesIcon from '@material-ui/icons/Devices';
+
 
 export default function Menu({ menuOpen, setMenuOpen }) {
   return (
@@ -29,7 +31,7 @@ export default function Menu({ menuOpen, setMenuOpen }) {
           <a href="#works">Works</a>
         </li> */}
         <li onClick={()=>setMenuOpen(false)}>
-          <PeopleIcon className="icon" />
+          <DevicesIcon className="icon" />
           <a href="#skills">Skills</a>
         </li>
         <li onClick={()=>setMenuOpen(false)}>
