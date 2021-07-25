@@ -31,7 +31,8 @@
         text-decoration: none;
         // align-items: center;
         @include mobile{
-          margin-left: 55vw;
+          margin-left: 45vw;
+          margin: .3vh 0vw .5vh 45vw;
           padding: .8vh 2.2vw;
         }
 
