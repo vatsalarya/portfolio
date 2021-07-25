@@ -12,7 +12,7 @@
   transition: all s ease;
 
   .wrapper {
-    padding: 1vh 1.5vw;
+    padding: 0vh 1.5vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -21,6 +21,8 @@
       display: flex;
       align-items: center;
       padding-right: 3vw;
+      padding-top: 1.3vh;
+      padding-bottom: 1.3vh;
 
       .logo {
         display: flex;
@@ -32,7 +34,7 @@
         // align-items: center;
         @include mobile{
           margin-left: 45vw;
-          margin: .3vh 0vw .5vh 45vw;
+          margin: .3vh 0vw .8vh 45vw;
           padding: .8vh 2.2vw;
         }
 
