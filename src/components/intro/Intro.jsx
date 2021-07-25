@@ -20,6 +20,7 @@ export default function Intro() {
         <div className="wrapper">
           <h2>Hi There, I'm</h2>
           <h1>Vatsal Arya</h1>
+        {/* <iframe src="https://onedrive.live.com/embed?cid=1D4278A15CECC798&resid=1D4278A15CECC798%21887&authkey=AGaHVzJu9ZyS57A&em=2" width="476" height="288" frameborder="0" scrolling="no"></iframe> */}
           <h3>
             <span ref={textRef}></span>
           </h3>
