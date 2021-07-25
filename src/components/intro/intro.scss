@@ -129,28 +129,29 @@
     }
     .mob_but{
       display: none;
-      @include mobile{
-        display: flex;
-        // flex-direction: column;
-        margin-top: 10vh;
-        button{
-          padding: 4vh;
-          margin: 1.5vh 12vw;
-          width: 70%;
-          font-size: 2vh;
-        }
-      }
       @include tall{
         display: flex;
         // flex-direction: column;
         margin-top: 10vh;
         button{
           padding: 4vh;
-          margin: 1.5vh 12vw;
-          width: 70%;
-          font-size: 2vh;
+          margin: 1.5vh 25vw 1.5vh 1vw;
+          width: 92%;
+          font-size: 4.5vw;
         }
       }
+      @include mobile{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10vh;
+        button{
+          padding: 4vh;
+          margin: 1.5vh 25vw 1.5vh 1vw;
+          width: 92%;
+          font-size: 4vw;
+        }
+      }
+
     }
     .imgContainer {
       height:  90vh;

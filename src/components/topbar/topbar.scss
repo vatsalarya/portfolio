@@ -31,7 +31,8 @@
         text-decoration: none;
         // align-items: center;
         @include mobile{
-        padding: .8vh 2.2vw;
+          margin-left: 55vw;
+          padding: .8vh 2.2vw;
         }
 
         .icon{
@@ -50,7 +51,6 @@
           color:rgb(148, 185, 216);
         }
       }
-
 
     }
 
