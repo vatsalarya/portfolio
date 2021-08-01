@@ -4,7 +4,7 @@
   display: flex;
   overflow: hidden;
 
-  @include mobile {
+  @include mobile { 
     flex-direction: column;
   }
   @include tall {

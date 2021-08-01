@@ -1,5 +1,7 @@
 import { useState } from "react";
+import theme from "../../theme"
 import "./contact.scss";
+
 
 export default function Contact() {
   const [message, setMessage] = useState(false);
@@ -13,7 +15,7 @@ export default function Contact() {
       <div className="left">
         <img src="assets/unnamed.png" alt="" />
       </div>
-      <div className="right neu">
+      <div className="right" style={theme.light.neuLight}>
         <h2>CONTACT</h2>
         <form onSubmit={handleSubmit}>
           <div className="inputBox">
@@ -24,8 +26,8 @@ export default function Contact() {
             <label>Message</label>
             <textarea placeholder="Message"></textarea>
           </div>
-          <button type="submit" className="neu">Send</button>
-          {message && <span className="neu2">Thanks, I'll reply ASAP </span>}
+          <button type="submit" style={theme.light.neuLight}>Send</button>
+          {message && <span style={theme.light.neu2Light}>Thanks, I'll reply ASAP </span>}
         </form>
       </div>
     </div>
