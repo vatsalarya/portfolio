@@ -9,17 +9,18 @@ import { useState } from "react";
 import Menu from "./components/menu/Menu";
 
 function App() {
-  const [menuOpen,setMenuOpen] = useState(false)
+  const [menuOpen,setMenuOpen] = useState(false);
+  const [theme,setTheme] = useState("dark");
   return (
     <div className="app">
-     <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-     <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-     <SmallMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+     <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} theme={theme} setTheme={setTheme}/>
+     <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} theme={theme} setTheme={setTheme}/>
+     <SmallMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} theme={theme} setTheme={setTheme}/>
      <div className="sections">
-       <Intro/>
-       <Portfolio/>
-       <Skills/>
-       <Contact/>
+       <Intro theme={theme} setTheme={setTheme}/>
+       <Portfolio theme={theme} setTheme={setTheme}/>
+       <Skills theme={theme} setTheme={setTheme}/>
+       <Contact theme={theme} setTheme={setTheme}/>
      </div>
     </div>
   );

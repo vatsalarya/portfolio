@@ -1,4 +1,4 @@
-const theme = {
+const allTheme = {
   light: {
     neuLight: {
       borderRadius: "1em",
@@ -42,4 +42,4 @@ const theme = {
   }
 }
 
-export default theme;
+export default allTheme;

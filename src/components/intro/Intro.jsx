@@ -1,8 +1,9 @@
 import "./intro.scss";
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
+import allTheme from "../../theme";
 
-export default function Intro() {
+export default function Intro(theme) {
   const textRef = useRef();
 
   useEffect(() => {
@@ -30,10 +31,10 @@ export default function Intro() {
           </p>
           <div className="buttons">
             <a href="#contact">            
-              <button type="submit" className="neu">Contact Me</button>
+              <button type="submit" className={theme==="light" ? allTheme.light.neuLight : allTheme.dark.neuDark}>Contact Me</button>
             </a>
             <a href="#portfolio">
-              <button type="submit" className="neu">More</button>
+              <button type="submit" className={theme==="light" ? allTheme.light.neuLight : allTheme.dark.neuDark}>More</button>
             </a>
           </div>
         </div>
@@ -45,7 +46,7 @@ export default function Intro() {
         </div>
         <div className="mob_but">
           <a href="#contact">            
-            <button type="submit" className="neu">Contact Me</button>
+            <button type="submit" className={theme==="light" ? allTheme.light.neuLight : allTheme.dark.neuDark}>Contact Me</button>
           </a>
         </div>
         <a className="arrow_bottom" href="#portfolio">

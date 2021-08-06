@@ -9,12 +9,12 @@ import CodeIcon from '@material-ui/icons/Code';
 import DevicesIcon from '@material-ui/icons/Devices';
 
 
-export default function Menu({ menuOpen, setMenuOpen }) {
+export default function Menu({ menuOpen, setMenuOpen, theme, setTheme }) {
   return (
     <div className={"menu neu "+(menuOpen && "active neu")}>
       <ul>
         <li className="top neu" onClick={()=>setMenuOpen(false)}>
-          <Brightness4Icon className="icon" />
+          <Brightness4Icon className="icon" onClick={()=>setTheme("light")}/>
         </li>
         <li onClick={()=>setMenuOpen(false)}>
           <HomeIcon className="icon homeicon" />
