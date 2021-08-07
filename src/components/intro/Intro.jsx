@@ -31,10 +31,10 @@ export default function Intro(theme) {
           </p>
           <div className="buttons">
             <a href="#contact">            
-              <button type="submit" className={theme==="light" ? allTheme.light.neuLight : allTheme.dark.neuDark}>Contact Me</button>
+              <button type="submit" style={theme==="light" ? allTheme.light.neuLight : allTheme.dark.neuDark}>Contact Me</button>
             </a>
             <a href="#portfolio">
-              <button type="submit" className={theme==="light" ? allTheme.light.neuLight : allTheme.dark.neuDark}>More</button>
+              <button type="submit" style={theme==="light" ? allTheme.light.neuLight : allTheme.dark.neuDark}>More</button>
             </a>
           </div>
         </div>
@@ -46,7 +46,7 @@ export default function Intro(theme) {
         </div>
         <div className="mob_but">
           <a href="#contact">            
-            <button type="submit" className={theme==="light" ? allTheme.light.neuLight : allTheme.dark.neuDark}>Contact Me</button>
+            <button type="submit" style={theme==="light" ? allTheme.light.neuLight : allTheme.dark.neuDark}>Contact Me</button>
           </a>
         </div>
         <a className="arrow_bottom" href="#portfolio">

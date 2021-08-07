@@ -13,8 +13,8 @@ export default function Menu({ menuOpen, setMenuOpen, theme, setTheme }) {
   return (
     <div className={"menu neu "+(menuOpen && "active neu")}>
       <ul>
-        <li className="top neu" onClick={()=>setMenuOpen(false)}>
-          <Brightness4Icon className="icon" onClick={()=>setTheme("light")}/>
+        <li className="top neu" onClick={()=>setTheme("light")}>
+          <Brightness4Icon className="icon"/>
         </li>
         <li onClick={()=>setMenuOpen(false)}>
           <HomeIcon className="icon homeicon" />

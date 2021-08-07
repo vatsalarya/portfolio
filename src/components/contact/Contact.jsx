@@ -1,9 +1,9 @@
 import { useState } from "react";
-import theme from "../../theme"
+import allTheme from "../../theme"
 import "./contact.scss";
 
 
-export default function Contact() {
+export default function Contact(theme) {
   const [message, setMessage] = useState(false);
 
   const handleSubmit = (e) => {
@@ -15,7 +15,7 @@ export default function Contact() {
       <div className="left">
         <img src="assets/unnamed.png" alt="" />
       </div>
-      <div className="right" style={theme.light.neuLight}>
+      <div className="right" style={theme==="light" ? allTheme.light.neuLight : allTheme.dark.neuDark}>
         <h2>CONTACT</h2>
         <form onSubmit={handleSubmit}>
           <div className="inputBox">
@@ -26,8 +26,8 @@ export default function Contact() {
             <label>Message</label>
             <textarea placeholder="Message"></textarea>
           </div>
-          <button type="submit" style={theme.light.neuLight}>Send</button>
-          {message && <span style={theme.light.neu2Light}>Thanks, I'll reply ASAP </span>}
+          <button type="submit" style={theme==="light" ? allTheme.light.neuLight : allTheme.dark.neuDark}>Send</button>
+          {message && <span style={theme==="light" ? allTheme.light.neu2Light : allTheme.dark.neu2Dark}>Thanks, I'll reply ASAP </span>}
         </form>
       </div>
     </div>
