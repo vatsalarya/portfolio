@@ -3,7 +3,7 @@ import { init } from "ityped";
 import { useEffect, useRef } from "react";
 import allTheme from "../../theme";
 
-export default function Intro(theme) {
+export default function Intro({theme}) {
   const textRef = useRef();
 
   useEffect(() => {
@@ -29,12 +29,12 @@ export default function Intro(theme) {
             <br/> I make responsive websites using MERN stack.
             <br/>I am also proficient in other languages like Python, C++, Dev Ops(jenkins)<br/> NodeJS, Jquery, EJS, mongoDB, SQL,<br/>Swift(IOS app development at Beginner level), SwiftUI
           </p>
-          <div className="buttons">
+          <div className="buttons"> 
             <a href="#contact">            
-              <button type="submit" style={theme==="light" ? allTheme.light.neuLight : allTheme.dark.neuDark}>Contact Me</button>
+              <button type="submit" style={theme===true ? allTheme.light.neuLight : allTheme.dark.neuDark}>Contact Me</button>
             </a>
             <a href="#portfolio">
-              <button type="submit" style={theme==="light" ? allTheme.light.neuLight : allTheme.dark.neuDark}>More</button>
+              <button type="submit" style={theme===true ? allTheme.light.neuLight : allTheme.dark.neuDark}>More</button>
             </a>
           </div>
         </div>
@@ -46,7 +46,7 @@ export default function Intro(theme) {
         </div>
         <div className="mob_but">
           <a href="#contact">            
-            <button type="submit" style={theme==="light" ? allTheme.light.neuLight : allTheme.dark.neuDark}>Contact Me</button>
+            <button type="submit" style={theme===true ? allTheme.light.neuLight : allTheme.dark.neuDark}>Contact Me</button>
           </a>
         </div>
         <a className="arrow_bottom" href="#portfolio">

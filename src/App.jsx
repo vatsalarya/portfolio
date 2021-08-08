@@ -10,9 +10,9 @@ import Menu from "./components/menu/Menu";
 
 function App() {
   const [menuOpen,setMenuOpen] = useState(false);
-  const [theme,setTheme] = useState("dark");
+  const [theme,setTheme] = useState(false);
   return (
-    <div className="app">
+    <div className="app" style={{backgroundColor: theme===true ? "#ebecf0" : "#131419"}}>
      <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} theme={theme} setTheme={setTheme}/>
      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} theme={theme} setTheme={setTheme}/>
      <SmallMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} theme={theme} setTheme={setTheme}/>

@@ -7,7 +7,7 @@ import {
   otherPortfolio,
 } from "../../data";
 
-export default function Portfolio() {
+export default function Portfolio({theme}) {
   const [selected, setSelected] = useState("webapps");
   const [data, setData] = useState([]);
   const list = [
@@ -51,6 +51,7 @@ export default function Portfolio() {
             active={selected === item.id}
             setSelected={setSelected}
             id={item.id}
+            theme={theme}
           />
         ))}
       </ul>

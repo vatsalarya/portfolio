@@ -1,10 +1,12 @@
 import "./topbar.scss";
 import { Person, Mail } from "@material-ui/icons";
 import GetAppIcon from '@material-ui/icons/GetApp';
+import allTheme from "../../theme"
 
-export default function Topbar({ menuOpen, setMenuOpen }) {
+
+export default function Topbar({ menuOpen, setMenuOpen, theme }) {
   return (
-    <div className={"topbar neu " + (menuOpen && "active")}>
+    <div className={"topbar " + (menuOpen && "active")} style={theme===true ? allTheme.light.neuLight : allTheme.dark.neuDark}>
       <div className="wrapper">
         <div className="left">
           <div className="hamburger" onClick={()=>setMenuOpen(!menuOpen)}>
@@ -12,7 +14,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             <span className="line2"></span>
             <span className="line3"></span>
           </div>
-          <a href="assets/Resume.pdf" download className="logo neu">
+          <a href="assets/Resume.pdf" download className="logo" style={theme===true ? allTheme.light.neuLight : allTheme.dark.neuDark}>
             <GetAppIcon className="icon"/>
             <div className="resume">Resume</div>
           </a>

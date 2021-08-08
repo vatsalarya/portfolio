@@ -3,7 +3,7 @@ import allTheme from "../../theme"
 import "./contact.scss";
 
 
-export default function Contact(theme) {
+export default function Contact({theme}) {
   const [message, setMessage] = useState(false);
 
   const handleSubmit = (e) => {
@@ -15,7 +15,7 @@ export default function Contact(theme) {
       <div className="left">
         <img src="assets/unnamed.png" alt="" />
       </div>
-      <div className="right" style={theme==="light" ? allTheme.light.neuLight : allTheme.dark.neuDark}>
+      <div className="right" style={theme===true ? allTheme.light.neuLight : allTheme.dark.neuDark}>
         <h2>CONTACT</h2>
         <form onSubmit={handleSubmit}>
           <div className="inputBox">
@@ -26,8 +26,8 @@ export default function Contact(theme) {
             <label>Message</label>
             <textarea placeholder="Message"></textarea>
           </div>
-          <button type="submit" style={theme==="light" ? allTheme.light.neuLight : allTheme.dark.neuDark}>Send</button>
-          {message && <span style={theme==="light" ? allTheme.light.neu2Light : allTheme.dark.neu2Dark}>Thanks, I'll reply ASAP </span>}
+          <button type="submit" style={theme===true ? allTheme.light.neuLight : allTheme.dark.neuDark}>Send</button>
+          {message && <span style={theme===true ? allTheme.light.neu2Light : allTheme.dark.neu2Dark}>Thanks, I'll reply ASAP </span>}
         </form>
       </div>
     </div>

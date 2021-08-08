@@ -7,13 +7,13 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import CodeIcon from '@material-ui/icons/Code';
 import DevicesIcon from '@material-ui/icons/Devices';
-
+import allTheme from "../../theme"
 
 export default function Menu({ menuOpen, setMenuOpen, theme, setTheme }) {
   return (
-    <div className={"menu neu "+(menuOpen && "active neu")}>
+    <div className={"menu "+(menuOpen && "active")} style={theme===true ? allTheme.light.neuLight : allTheme.dark.neuDark}>
       <ul>
-        <li className="top neu" onClick={()=>setTheme("light")}>
+        <li className="top" onClick={()=>setTheme(!theme)} style={theme===true ? allTheme.light.neuLight : allTheme.dark.neuDark}>
           <Brightness4Icon className="icon"/>
         </li>
         <li onClick={()=>setMenuOpen(false)}>
