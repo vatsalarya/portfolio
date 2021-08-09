@@ -10,12 +10,11 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  transition: all .7s ease;
+  transition: all .5s ease;
+  overflow:visible !important;
 
   &.active {
     left: .1%;
-    background-color: var(--clr--dark-menu);
-
   }
 
   .icon{
@@ -44,7 +43,7 @@
       font-size: 2.2vw;
     }
     @include mobile{
-    font-size: 4.4vw;
+    font-size: 4vw;
     }
 
 

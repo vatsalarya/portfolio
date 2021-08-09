@@ -4,8 +4,7 @@
   width: 100%;
   height: 7vh;
   position: fixed;
-  top: 0;
-  margin-top: .5vh;
+  margin-top: .35vh;
   overflow: hidden;
 
   z-index: 4;
@@ -28,27 +27,19 @@
         display: flex;
         align-items: center;
         padding: .8vh .8vw;
-        // padding-top: .5vh;
         margin-left: 2.5vw;
         text-decoration: none;
-        // align-items: center;
-        @include mobile{
-          margin-left: 45vw;
-          margin: .3vh 0vw .1vh 45vw;
-          padding: .7vh 2.2vw;
-          padding-right: 3.5vw;
-
-          
+        @media screen and (max-width: 480px){
+          margin: .3vh 0vw .1vh 55vw;
+          width: 25vw;
         }
 
         .icon{
           font-size: 2.5vh;
           margin-right: .6vw;
           margin-top: .3vh;
-
           align-items: center;
           color:rgb(70, 189, 133);
-
           @include mobile{
             margin-right: 2vw;
           }
@@ -58,12 +49,12 @@
           font-weight: 700;
           // color:rgb(148, 185, 216);
           color:rgb(95, 180, 250);
-
+          @media screen and (max-width: 480px){
+          font-size:4vw;
+          }
         }
       }
-
     }
-
     .right{
       margin-right: 2%; 
       display: flex;
@@ -78,23 +69,18 @@
         @include mobile{
           display: none;
         }
-        
-
         .icon {
           font-size: 1.5vw;
           margin-right: .5vw;
 
         }
-
         span {
-          font-size: 1.1vw;
+          // font-size: 1.1vw;
           font-weight: 500;
         }
       }
 
     }
-
-
       .hamburger {
         margin-left: 1.5vw;
         width: 32px;
@@ -124,12 +110,6 @@
   }
 
   &.active {
-    background-color: var(--clr--dark-menu);
-    .left{
-      .logo{
-        visibility: hidden;
-      }
-    }
     .hamburger {
       span {
         &:first-child {
