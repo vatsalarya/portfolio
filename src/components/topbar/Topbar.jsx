@@ -10,9 +10,9 @@ export default function Topbar({ menuOpen, setMenuOpen, theme }) {
       <div className="wrapper">
         <div className="left">
           <div className="hamburger" onClick={()=>setMenuOpen(!menuOpen)}>
-            <span className="line1"></span>
-            <span className="line2"></span>
-            <span className="line3"></span>
+            <span className="line1" style={{backgroundColor: theme===false ? "#ebecf0" : "grey"}}></span>
+            <span className="line2" style={{backgroundColor: theme===false ? "#ebecf0" : "grey"}}></span>
+            <span className="line3" style={{backgroundColor: theme===false ? "#ebecf0" : "grey"}}></span>
           </div>
           <a href="assets/Resume.pdf" download className="logo" style={theme===true ? allTheme.light.neuLight : allTheme.dark.neuDark}>
             <GetAppIcon className="icon"/>

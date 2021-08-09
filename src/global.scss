@@ -20,52 +20,10 @@ $width: 720px;
   }
 }
 
-
-:root {
-    // --clr-light: white;
-    // --clr-med: #ebecf0;
-    // --clr-dark: #90a4ae;
-    // --clr-dark-heavy: #546e7a;
-    // --clr--dark-menu:#dfe2f0;
-
-    --clr-light: rgba(255,255,255,0.05);
-    --clr-med: #131419;
-    --clr-dark: rgba(0,0,0,0.5);
-    --clr-dark-heavy: #546e7a;
-    --clr--dark-menu:#21232b;
-
-  }
-  
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     transition: all .5s ease;
     // color:#03a9f4;
-  }
-  
-  // body {
-  //   background: var(--clr-med);
-  // }
-
-  
-  .neu {
-    border-radius: 1em;
-    border: none;
-    outline: none;
-    background: var(--clr-med);
-    box-shadow: -5px -5px 10px var(--clr-light), 5px 5px 10px var(--clr-dark);
-    font-family: Montserrat, sans-serif;
-    color: var(--clr-dark-heavy);
-  }
-  
-  .neu2 {
-    border-radius: 5em;
-    border: none;
-    outline: none;
-    background: var(--clr-med);
-    box-shadow: -5px -5px 10px var(--clr-light), 5px 5px 10px var(--clr-dark),
-      inset -5px -5px 10px var(--clr-light), inset 5px 5px 10px var(--clr-dark);
-    font-family: Montserrat, sans-serif;
-    color: var(--clr-dark-heavy);
   }

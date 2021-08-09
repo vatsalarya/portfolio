@@ -13,7 +13,7 @@ export default function Contact({theme}) {
   return (
     <div className="contact" id="contact">
       <div className="left">
-        <img src="assets/unnamed.png" alt="" />
+        <img src="https://i.ibb.co/znvjzQd/unnamed.png" alt="" />
       </div>
       <div className="right" style={theme===true ? allTheme.light.neuLight : allTheme.dark.neuDark}>
         <h2>CONTACT</h2>

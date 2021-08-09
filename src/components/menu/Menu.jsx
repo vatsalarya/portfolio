@@ -44,7 +44,6 @@ export default function Menu({ menuOpen, setMenuOpen, theme, setTheme }) {
           <CodeIcon className="icon" />
           <a href="https://www.codechef.com/users/vatsalarya1">CodeChef</a>
         </li>
-
       </ul>
     </div>
   );

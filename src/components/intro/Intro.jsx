@@ -42,7 +42,7 @@ export default function Intro({theme}) {
       </div>
       <div className="right">
         <div className="imgContainer">
-          <img src="assets/mying.png" alt="" />
+          <img src="https://i.ibb.co/M9N7bM0/mying.png" alt="" />
         </div>
         <div className="mob_but">
           <a href="#contact">            

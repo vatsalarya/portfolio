@@ -14,9 +14,6 @@ export default function SmallMenu({ menuOpen, setMenuOpen, theme, setTheme }) {
   return (
     <div className={"menu_small "+(menuOpen && "active")} style={theme===true ? allTheme.light.neuLight : allTheme.dark.neuDark}>
       <ul>
-        {/* <li>
-          <Brightness4Icon className="icon" />
-        </li> */}
         <li className="top" onClick={()=>setTheme(!theme)}>
           <Brightness4Icon className="icon"/>
         </li>

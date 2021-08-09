@@ -42,6 +42,7 @@
       flex-direction: column;
       justify-content: space-around;
       padding: 2.5vh;
+      margin: .6vw;
       transition: all .5s ease;
 
       @include tablet{
@@ -64,7 +65,7 @@
       &.featured{
           width: 18vw;
           height: 66vh;
-          margin: 0 4vh;
+          margin: 0 2.5vh;
           @include tablet{
             width: 28vw;
             height: 60vh;
@@ -97,7 +98,7 @@
         align-items: center;
         justify-content: center;
         padding: 3vh;
-        color:#9aa086;
+        color:#9aa086 !important;
         // font-family: 'Marck Script', cursive;
         font-family: 'Lobster', cursive;
         
@@ -109,7 +110,7 @@
         border-radius: 10px;
         background-color: rgb(21, 21, 24);
         font-size: 2.3vh;
-        color:#85a8c5;
+        // color:#85a8c5;
         // @include mobile{
         //   font-size: 12px;
         //   padding: 5px;
@@ -134,7 +135,7 @@
             color: rgb(121, 115, 115);
             letter-spacing: 1vh;
             font-size: larger;
-
+            margin-left: .35vw;
             // @include mobile{
             //   font-size: 13px;
             // }

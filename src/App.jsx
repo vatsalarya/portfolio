@@ -16,7 +16,7 @@ function App() {
      <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} theme={theme} setTheme={setTheme}/>
      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} theme={theme} setTheme={setTheme}/>
      <SmallMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} theme={theme} setTheme={setTheme}/>
-     <div className="sections">
+     <div className="sections" style={{backgroundColor: theme===true ? "#ebecf0" : "#131419"}}s>
        <Intro theme={theme} setTheme={setTheme}/>
        <Portfolio theme={theme} setTheme={setTheme}/>
        <Skills theme={theme} setTheme={setTheme}/>

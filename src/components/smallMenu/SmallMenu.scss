@@ -25,12 +25,11 @@
     font-size: 2vw;
     align-items: center;
     color:rgb(76, 141, 211);
+    transition: all .3s ease;
 
-
-
-    // @include tablet{
-    //   font-size: 3vw;
-    //   }
+    &:hover {
+      font-size: 2.35vw;
+    }
   }
  
   ul {
@@ -38,7 +37,7 @@
     margin-top: 12vh;
     padding: 0;
     list-style: none;
-    overflow: hidden;
+    overflow: hidden; 
 
     @include tablet{
     margin-left: 1.8vw;
@@ -46,20 +45,14 @@
     li {
       display: flex;
       align-items: center;
-      margin-bottom: 4.4vh;
-      // a {
-      //   font-size: inherit;
-      //   // color: red;
-      //   text-decoration: none;
-      // }
-      &:hover {
-        font-weight: 500;
-      }
+      padding-bottom: 4.4vh;
       .homeicon{
         font-size: 2.2vw;
-
+        &:hover {
+          transition: all .3s ease;
+          font-size: 2.5vw;
+        }
       }
     }
   }
-
 }
