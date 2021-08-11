@@ -25,7 +25,6 @@
       margin-top: 20vh;
       color:#03a9f4;
 
-
       @include mobile{
         padding-left: 0;
         align-items: center;
@@ -40,7 +39,7 @@
         font-size: 2.5vh;
         padding-top: 2vh;
         margin-top: 2vh;
-        color: var(--clr-dark-heavy);
+        color: #7092a1;
         
         @include mobile{
           padding-left: 6%;
@@ -56,8 +55,8 @@
         padding: 2vh;
         width:28%;
         margin: 6vh;
-        font-size: 2vh;
-        color: #899da7;
+        font-size: 2.1vh;
+        color: #8baab9;
         @include tablet{
           margin: 2vh;
           width: 34%;

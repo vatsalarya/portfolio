@@ -34,7 +34,7 @@ export default function Intro({theme}) {
               <button type="submit" style={theme===true ? allTheme.light.neuLight : allTheme.dark.neuDark}>Contact Me</button>
             </a>
             <a href="#portfolio">
-              <button type="submit" style={theme===true ? allTheme.light.neuLight : allTheme.dark.neuDark}>More</button>
+              <button type="submit" style={theme===true ? allTheme.light.neuLight : allTheme.dark.neuDark}>Portfolio</button>
             </a>
           </div>
         </div>

@@ -5,6 +5,7 @@
   height: 7vh;
   position: fixed;
   margin-top: .35vh;
+  // margin-top: .7vh;
   overflow: hidden;
 
   z-index: 4;
@@ -48,7 +49,7 @@
           font-size:2.2vh;
           font-weight: 700;
           // color:rgb(148, 185, 216);
-          color:rgb(95, 180, 250);
+          color:rgb(129, 191, 241);
           @media screen and (max-width: 480px){
           font-size:4vw;
           }
