@@ -118,7 +118,7 @@ export default function Skills({theme}) {
             <div className="top neu" style={theme===true ? allTheme.light.neuLight : allTheme.dark.neuDark}>
               <h2>{d.skill}</h2>
             </div>
-            <div className="center neu" style={theme===true ? allTheme.light.neuLight : allTheme.dark.neuDark}>
+            <div className="center neu" style={theme===true ? allTheme.light.neu2Light : allTheme.dark.neu2Dark }>
               {d.desc}
             </div>
             <div className="bottom neu" style={theme===true ? allTheme.light.neuLight : allTheme.dark.neuDark}>

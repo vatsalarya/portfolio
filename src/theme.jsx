@@ -10,7 +10,7 @@ const allTheme = {
       color: "#546e7a",
     },
     neu2Light: {
-      borderRadius: "5em",
+      borderRadius: ".6em",
       border: "none",
       outline: "none",
       background: "#ebecf0",
@@ -31,7 +31,7 @@ const allTheme = {
       color: "#546e7a",
     },
     neu2Dark: {
-      borderRadius: "5em",
+      borderRadius: ".6em",
       border: "none",
       outline: "none",
       background: "#131419",
