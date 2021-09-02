@@ -18,7 +18,6 @@ const allTheme = {
       fontFamily: "Montserrat, sans-serif",
       color: "#546e7a",
     }
-    
   },
   dark: {
     neuDark: {
