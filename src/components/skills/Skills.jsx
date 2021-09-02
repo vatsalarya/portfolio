@@ -6,7 +6,7 @@ export default function Skills({theme}) {
     {
       id: 1,
       skill:"C++",
-      src: "https://i.ibb.co/Kr0N31v/1200px-ISO-C-Logo-svg.png",
+      src: "https://i.ibb.co/74nqtXd/C-Image-1080x644-removebg-preview-2.png",
       level: "****",
       desc:
         "Made various projects in C++ like password manager, password generator, file encrypter, decrypter. Done competitive coding in C++.",
@@ -14,7 +14,7 @@ export default function Skills({theme}) {
     {
       id: 2,
       skill:"Python",
-      src: "https://i.ibb.co/qNb4XsD/Python-logo-and-wordmark-svg.png",
+      src: "https://i.ibb.co/swH3HLP/Python-language-removebg-preview.png",
       level: "***",
       desc:
         "Made projects such as hotel management and food ordering system with MySQL integration Competitive programming in python. ",

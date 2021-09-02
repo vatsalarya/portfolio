@@ -98,13 +98,14 @@
         align-items: center;
         justify-content: center;
         padding: .5vh;
-        color:#a9b979 !important;
-        // font-family: 'Marck Script', cursive;
-        font-family: 'Lobster', cursive;
         img{
-          height:9vh;
-          width:7vw
+          height:10vh;
+          width:7vw;
+          @include mobile{
+            width: 13vw;
+          }
         }
+
         
       }
 
